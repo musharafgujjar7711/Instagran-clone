@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function MyProfile() {
   return (
-    <div className='h-[calc(100vh-6.66rem)] overflow-y-auto overflow-x-hidden w-full flex flex-col'>
+    <div className='h-[calc(110vh-6.66rem)] overflow-y-auto overflow-x-hidden w-full flex flex-col'>
       
       <div className='flex items-center p-4 border-b'>
         <img

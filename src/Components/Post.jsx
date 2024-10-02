@@ -11,11 +11,11 @@ import Postcomnt from '../Post/Postcomnt'
 function Post() {
   return (
     <div>
-       <div className=' md:hidden flex items-center  justify-between p-2 capitalize border'>
+       <div className=' md:hidden flex items-center  justify-between p-2 capitalize border font-bold text-2xl'>
     instagram
     <div className=' md:hidden flex items-center gap-4'>
-    <BiHeart/>
-   <IoMailOpenOutline/>
+    <BiHeart className='text-rose-500' size={30}/>
+   <IoMailOpenOutline size={30}/>
     </div>
     </div>
    
