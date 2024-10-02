@@ -26,12 +26,12 @@ function MyProfile() {
         </div>
       </div>
 
-      {/* Bio Section */}
+     
       <div className='p-4'>
         <p className='text-gray-700'>Chairman pakistan Tehrekk insaf (@PTIOfficial) &Formar primemister of pakistan</p>
       </div>
 
-      {/* Tabs for Posts, IGTV, Saved */}
+      
       <div className='mt-4'>
         <nav className='flex space-x-4'>
           <Link to="/my-posts" className='flex-1 py-2 text-center border-b-2 border-blue-500 font-semibold'>Posts</Link>
@@ -40,7 +40,7 @@ function MyProfile() {
         </nav>
       </div>
 
-      {/* Posts Grid */}
+      
       <div className='grid grid-cols-2 md:grid-cols-3 gap-4 p-4'>
         {Array.from({ length: 9 }).map((_, index) => (
           <div key={index} className='relative overflow-hidden rounded-lg'>

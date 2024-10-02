@@ -22,9 +22,9 @@ function App() {
         <Routes >   
         <Route path='/' element={<Home/>} /> 
           <Route path='/video/search'  element={<Search />} />
-          <Route path='/video/stores/:id' element={<Stores />} />
-          <Route path='/video/profile/:id' element={<MyProfile />} />
-          <Route path='/video/shorts/:id' element={<Shorts />} />
+          <Route path='/video/stores/' element={<Stores />} />
+          <Route path='/video/profile/' element={<MyProfile />} />
+          <Route path='/video/shorts/' element={<Shorts />} />
         </Routes>
        </div>
 

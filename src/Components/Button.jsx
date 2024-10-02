@@ -28,12 +28,12 @@ function Button() {
           </Link>
         </li>
         <li>
-          <Link to='/video/shorts/32'>
+          <Link to='/video/shorts/'>
           <SiYoutubeshorts size={30} />
           </Link>
         </li>
         <li>
-          <Link to='/video/profile/34'>
+          <Link to='/video/profile/'>
           <CgProfile size={30} />
           </Link>
         </li>
